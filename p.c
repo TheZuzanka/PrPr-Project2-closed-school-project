@@ -38,7 +38,7 @@ CAR* p(CAR* l_list, int *number_of_cars){
         return new;
     }
 
-    else if (position <= *number_of_cars){
+    else if (position <= *number_of_cars && position != 1){
         while(aktual_position < position-1) {
             aktual = aktual->next;
             aktual_position++;
