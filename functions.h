@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 
 typedef struct car{
@@ -24,3 +25,4 @@ void free_linked_list(CAR** l_list);
 void k(CAR** l_list);
 void v(CAR** l_list);
 CAR* p(CAR* l_list, int *number_of_cars);
+CAR* z(CAR* l_list);

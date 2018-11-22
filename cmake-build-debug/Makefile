@@ -284,6 +284,33 @@ v.c.s:
 	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/v.c.s
 .PHONY : v.c.s
 
+z.obj: z.c.obj
+
+.PHONY : z.obj
+
+# target to build an object file
+z.c.obj:
+	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/z.c.obj
+.PHONY : z.c.obj
+
+z.i: z.c.i
+
+.PHONY : z.i
+
+# target to preprocess a source file
+z.c.i:
+	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/z.c.i
+.PHONY : z.c.i
+
+z.s: z.c.s
+
+.PHONY : z.s
+
+# target to generate assembly for a file
+z.c.s:
+	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/z.c.s
+.PHONY : z.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -311,6 +338,9 @@ help:
 	@echo ... v.obj
 	@echo ... v.i
 	@echo ... v.s
+	@echo ... z.obj
+	@echo ... z.i
+	@echo ... z.s
 .PHONY : help
 
 

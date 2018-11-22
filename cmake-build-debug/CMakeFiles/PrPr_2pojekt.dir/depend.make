@@ -19,3 +19,6 @@ CMakeFiles/PrPr_2pojekt.dir/p.c.obj: ../p.c
 CMakeFiles/PrPr_2pojekt.dir/v.c.obj: ../functions.h
 CMakeFiles/PrPr_2pojekt.dir/v.c.obj: ../v.c
 
+CMakeFiles/PrPr_2pojekt.dir/z.c.obj: ../functions.h
+CMakeFiles/PrPr_2pojekt.dir/z.c.obj: ../z.c
+

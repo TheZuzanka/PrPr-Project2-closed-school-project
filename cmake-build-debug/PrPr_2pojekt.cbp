@@ -95,6 +95,9 @@
 		<Unit filename="C:/Users/wlach/CLionProjects/PrPr_2pojekt/v.c">
 			<Option target="PrPr_2pojekt"/>
 		</Unit>
+		<Unit filename="C:/Users/wlach/CLionProjects/PrPr_2pojekt/z.c">
+			<Option target="PrPr_2pojekt"/>
+		</Unit>
 		<Unit filename="C:/Users/wlach/CLionProjects/PrPr_2pojekt/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

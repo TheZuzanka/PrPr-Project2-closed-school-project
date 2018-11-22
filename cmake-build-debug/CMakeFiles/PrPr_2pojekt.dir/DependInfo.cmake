@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/wlach/CLionProjects/PrPr_2pojekt/n.c" "C:/Users/wlach/CLionProjects/PrPr_2pojekt/cmake-build-debug/CMakeFiles/PrPr_2pojekt.dir/n.c.obj"
   "C:/Users/wlach/CLionProjects/PrPr_2pojekt/p.c" "C:/Users/wlach/CLionProjects/PrPr_2pojekt/cmake-build-debug/CMakeFiles/PrPr_2pojekt.dir/p.c.obj"
   "C:/Users/wlach/CLionProjects/PrPr_2pojekt/v.c" "C:/Users/wlach/CLionProjects/PrPr_2pojekt/cmake-build-debug/CMakeFiles/PrPr_2pojekt.dir/v.c.obj"
+  "C:/Users/wlach/CLionProjects/PrPr_2pojekt/z.c" "C:/Users/wlach/CLionProjects/PrPr_2pojekt/cmake-build-debug/CMakeFiles/PrPr_2pojekt.dir/z.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
