@@ -59,7 +59,6 @@ CAR* n(CAR* l_list, int* number_of_cars){
     for(i = 0; i < (*number_of_cars) -1; i++){
         aktual->next = (CAR*)malloc(sizeof(CAR));
         aktual = aktual->next;
-        //printf("l_list -> next = %p\n", l_list->next);
         fgets(string, 299, fr);
 
         fgets(string, 299, fr);

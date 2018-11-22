@@ -6,7 +6,7 @@ void free_linked_list(CAR** l_list)
 {
     CAR* aktual;
 
-    while (*l_list != NULL) {
+    while (*l_list != NULL){
         aktual = *l_list;
         (*l_list) = (*l_list)->next;
         free(aktual);
