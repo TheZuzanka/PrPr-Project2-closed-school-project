@@ -1,0 +1,21 @@
+$
+osobny automobil
+Ferrari
+Autobazar Pestovatelska 4 Bratislava
+5620
+2005
+udrziavane cervene dvojdverove
+$
+kamion
+Renault
+AUTO Modranska 5 Senec
+18000
+2011
+po havarii opraveny v dobrom stave
+$
+osobny automobil
+Mitsubishi
+Mitsubishi Motors Banska Bystrica
+19500
+2016
+cervene oskrety pravy bok

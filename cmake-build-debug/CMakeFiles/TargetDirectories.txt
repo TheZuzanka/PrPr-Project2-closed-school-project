@@ -1,0 +1,3 @@
+C:/Users/wlach/CLionProjects/PrPr_2pojekt/cmake-build-debug/CMakeFiles/PrPr_2pojekt.dir
+C:/Users/wlach/CLionProjects/PrPr_2pojekt/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/wlach/CLionProjects/PrPr_2pojekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
