@@ -28,6 +28,11 @@ int main() {
                 p_cars_list = &cars_list;
                 break;
 
+            case 'a':
+                cars_list = a(*p_cars_list);
+                p_cars_list = &cars_list;
+                break;
+
             case 'k':
                 k(p_cars_list);
 

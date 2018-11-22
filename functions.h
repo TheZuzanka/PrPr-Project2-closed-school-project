@@ -26,3 +26,4 @@ void k(CAR** l_list);
 void v(CAR** l_list);
 CAR* p(CAR* l_list, int *number_of_cars);
 CAR* z(CAR* l_list);
+CAR* a(CAR* l_list);

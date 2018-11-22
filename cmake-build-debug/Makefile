@@ -122,6 +122,33 @@ PrPr_2pojekt/fast:
 	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/build
 .PHONY : PrPr_2pojekt/fast
 
+a.obj: a.c.obj
+
+.PHONY : a.obj
+
+# target to build an object file
+a.c.obj:
+	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/a.c.obj
+.PHONY : a.c.obj
+
+a.i: a.c.i
+
+.PHONY : a.i
+
+# target to preprocess a source file
+a.c.i:
+	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/a.c.i
+.PHONY : a.c.i
+
+a.s: a.c.s
+
+.PHONY : a.s
+
+# target to generate assembly for a file
+a.c.s:
+	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/a.c.s
+.PHONY : a.c.s
+
 free_linked_list.obj: free_linked_list.c.obj
 
 .PHONY : free_linked_list.obj
@@ -320,6 +347,9 @@ help:
 	@echo ... PrPr_2pojekt
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... a.obj
+	@echo ... a.i
+	@echo ... a.s
 	@echo ... free_linked_list.obj
 	@echo ... free_linked_list.i
 	@echo ... free_linked_list.s
