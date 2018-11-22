@@ -18,11 +18,12 @@ CAR* z(CAR* l_list){
             low_case_brand[i] = (char)tolower((aktual->next->brand)[i]);
         }
 
-        if(strcmp(low_case_brand, new_brand) == 0){
+        if(strstr(low_case_brand, new_brand) != NULL){
             deleting = aktual->next;
             aktual->next = aktual->next->next;
             free(deleting);
         }
+        aktual = aktual->next;
     }
 
     return l_list;
