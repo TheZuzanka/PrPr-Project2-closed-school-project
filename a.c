@@ -21,7 +21,7 @@ CAR* a(CAR* l_list){
         }
 
         if(strstr(low_case_brand, new_brand) != NULL && year == aktual->year){
-            aktual->price = (aktual->price) + 100;
+            aktual->price = (aktual->price) - 100;
             number_of_changes++;
         }
 
