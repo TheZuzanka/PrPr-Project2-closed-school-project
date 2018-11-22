@@ -1,9 +1,6 @@
 // Created by Susanka on 22. 11. 2018.
 
-#include <stdio.h>
 #include "functions.h"
-#include <stdlib.h>
-#include <string.h>
 
 CAR* n(CAR* l_list, int* number_of_cars){
     FILE* fr;

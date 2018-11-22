@@ -1,9 +1,6 @@
 // Created by Susanka on 22. 11. 2018.
 
 #include "functions.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 CAR* p(CAR* l_list, int *number_of_cars){
     CAR* new = (CAR*)malloc(sizeof(CAR)), *aktual = l_list;
@@ -41,25 +38,23 @@ CAR* p(CAR* l_list, int *number_of_cars){
         return new;
     }
 
-    else if (position != 1){
+    else if (position <= *number_of_cars){
         while(aktual_position < position-1) {
             aktual = aktual->next;
             aktual_position++;
         }
 
-        printf("rozhoduje\n");
-        if(position <= *number_of_cars){
-            new->next = aktual->next;
-            aktual->next = new;
-            printf("mensie\n");
-        }
-        else{
-            //new->next = NULL;
-            printf("position = %d, new->next = %p", aktual_position, aktual->next);
-            aktual->next = new;
-        }
+        new->next = aktual->next;
+        aktual->next = new;
 
         (*number_of_cars)++;
+        return l_list;
+    }
+    else if(position > *number_of_cars){
+        while(aktual->next != NULL) {
+            aktual = aktual->next;
+        }
+        aktual->next = new;
         return l_list;
     }
     else{

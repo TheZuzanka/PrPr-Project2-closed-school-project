@@ -1,7 +1,6 @@
 // Created by Susanka on 22. 11. 2018.
 
 #include "functions.h"
-#include <stdio.h>
 
 void v(CAR** l_list){
     CAR* aktual = *l_list;

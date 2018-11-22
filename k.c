@@ -1,8 +1,6 @@
 // Created by Susanka on 22. 11. 2018.
 
 #include "functions.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 void k(CAR** l_list){
     if(l_list == NULL){
