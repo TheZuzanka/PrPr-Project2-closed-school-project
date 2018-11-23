@@ -5,7 +5,7 @@
 CAR* z(CAR* l_list){
     char new_brand[50 + 1], low_case_brand[50 + 1];
     int i, number_of_deleted = 0;
-    CAR* aktual = l_list, *deleting;
+    CAR* aktual = l_list, *deleting, *previous = l_list;
 
     fgets(new_brand, 50, stdin);
     new_brand[strlen(new_brand) - 1] = '\0';
@@ -13,18 +13,49 @@ CAR* z(CAR* l_list){
         new_brand[i] = (char)tolower(new_brand[i]);
     }
 
-    while(aktual->next->next != NULL){
-        for (i = 0; i < strlen(aktual->brand); i++){
-            low_case_brand[i] = (char)tolower((aktual->next->brand)[i]);
+    for (i = 0; i <= strlen(aktual->brand); i++){
+        low_case_brand[i] = (char)tolower((aktual->brand)[i]);
+    }
+    if(strstr(low_case_brand, new_brand) != NULL){
+        deleting = aktual;
+        l_list = aktual->next;
+        free(deleting);
+    }
+
+    while(aktual->next != NULL){
+        for (i = 0; i <= strlen(aktual->brand); i++){
+            low_case_brand[i] = (char)tolower((aktual->brand)[i]);
         }
 
         if(strstr(low_case_brand, new_brand) != NULL){
-            deleting = aktual->next;
-            aktual->next = aktual->next->next;
+            previous->next = aktual->next;
+            deleting = aktual;
+            aktual = aktual->next;
             free(deleting);
+            number_of_deleted++;
         }
-        aktual = aktual->next;
+        else{
+            previous = aktual;
+            aktual = aktual->next;
+        }
     }
+
+    for (i = 0; i <= strlen(aktual->brand); i++){
+        low_case_brand[i] = (char)tolower((aktual->brand)[i]);
+    }
+    if(strstr(low_case_brand, new_brand) != NULL){
+        if(previous->next == NULL){
+            free_linked_list(&l_list);
+            printf("Vymazalo sa 1 zaznamov\n");
+            return NULL;
+        }
+        previous->next = NULL;
+        deleting = aktual;
+        free(deleting);
+        number_of_deleted++;
+    }
+
+    printf("Vymazalo sa %d zaznamov\n", number_of_deleted);
 
     return l_list;
 }
