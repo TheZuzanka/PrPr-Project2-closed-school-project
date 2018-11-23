@@ -13,26 +13,26 @@ CAR* z(CAR* l_list){
         new_brand[i] = (char)tolower(new_brand[i]);
     }
 
-    for (i = 0; i <= strlen(aktual->brand); i++){
-        low_case_brand[i] = (char)tolower((aktual->brand)[i]);
-    }
-    if(strstr(low_case_brand, new_brand) != NULL){
-        deleting = aktual;
-        l_list = aktual->next;
-        free(deleting);
-    }
-
     while(aktual->next != NULL){
         for (i = 0; i <= strlen(aktual->brand); i++){
             low_case_brand[i] = (char)tolower((aktual->brand)[i]);
         }
 
         if(strstr(low_case_brand, new_brand) != NULL){
-            previous->next = aktual->next;
-            deleting = aktual;
-            aktual = aktual->next;
-            free(deleting);
-            number_of_deleted++;
+            if(aktual == l_list){
+                deleting = aktual;
+                l_list = aktual->next;
+                aktual = aktual->next;
+                free(deleting);
+                number_of_deleted++;
+            }
+            else{
+                previous->next = aktual->next;
+                deleting = aktual;
+                aktual = aktual->next;
+                free(deleting);
+                number_of_deleted++;
+            }
         }
         else{
             previous = aktual;
