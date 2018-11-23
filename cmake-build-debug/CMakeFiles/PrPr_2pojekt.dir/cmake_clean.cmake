@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PrPr_2pojekt.dir/k.c.obj"
   "CMakeFiles/PrPr_2pojekt.dir/z.c.obj"
   "CMakeFiles/PrPr_2pojekt.dir/a.c.obj"
+  "CMakeFiles/PrPr_2pojekt.dir/h.c.obj"
   "PrPr_2pojekt.pdb"
   "PrPr_2pojekt.exe"
   "PrPr_2pojekt.exe.manifest"

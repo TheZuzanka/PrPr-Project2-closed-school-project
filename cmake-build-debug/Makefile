@@ -176,6 +176,33 @@ free_linked_list.c.s:
 	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.s
 .PHONY : free_linked_list.c.s
 
+h.obj: h.c.obj
+
+.PHONY : h.obj
+
+# target to build an object file
+h.c.obj:
+	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/h.c.obj
+.PHONY : h.c.obj
+
+h.i: h.c.i
+
+.PHONY : h.i
+
+# target to preprocess a source file
+h.c.i:
+	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/h.c.i
+.PHONY : h.c.i
+
+h.s: h.c.s
+
+.PHONY : h.s
+
+# target to generate assembly for a file
+h.c.s:
+	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/h.c.s
+.PHONY : h.c.s
+
 k.obj: k.c.obj
 
 .PHONY : k.obj
@@ -353,6 +380,9 @@ help:
 	@echo ... free_linked_list.obj
 	@echo ... free_linked_list.i
 	@echo ... free_linked_list.s
+	@echo ... h.obj
+	@echo ... h.i
+	@echo ... h.s
 	@echo ... k.obj
 	@echo ... k.i
 	@echo ... k.s

@@ -16,7 +16,7 @@ CAR* a(CAR* l_list){
     getchar();
 
     while(aktual != NULL){
-        for (i = 0; i < strlen(aktual->brand); i++){
+        for (i = 0; i <= strlen(aktual->brand); i++){
             low_case_brand[i] = (char)tolower((aktual->brand)[i]);
         }
 
@@ -25,7 +25,7 @@ CAR* a(CAR* l_list){
             number_of_changes++;
         }
 
-        printf("aktual = %s\n", aktual->brand);
+        //printf("aktual = %s\n", aktual->brand);
         aktual = aktual->next;
     }
 
