@@ -48,8 +48,8 @@
       <file leaf-file-name="z.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/z.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="-93">
+              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -240,12 +240,12 @@
       <workItem from="1542868845413" duration="25889000" />
       <workItem from="1542925620014" duration="111000" />
       <workItem from="1542966190868" duration="2238000" />
-      <workItem from="1542968464628" duration="7900000" />
+      <workItem from="1542968464628" duration="8415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36138000" />
+    <option name="totallyTimeSpent" value="36653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -608,8 +608,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/z.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="-93">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding />
         </state>
       </provider>

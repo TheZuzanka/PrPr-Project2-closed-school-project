@@ -22,17 +22,14 @@ CAR* z(CAR* l_list){
             if(aktual == l_list){
                 deleting = aktual;
                 l_list = aktual->next;
-                aktual = aktual->next;
-                free(deleting);
-                number_of_deleted++;
             }
             else{
                 previous->next = aktual->next;
                 deleting = aktual;
-                aktual = aktual->next;
-                free(deleting);
-                number_of_deleted++;
             }
+            aktual = aktual->next;
+            free(deleting);
+            number_of_deleted++;
         }
         else{
             previous = aktual;
