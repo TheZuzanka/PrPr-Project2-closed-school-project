@@ -2,10 +2,10 @@
 
 #include "functions.h"
 
-CAR* a(CAR* l_list){
+CAR* a(CAR* p_linked_list){
     char new_brand[50 + 1], low_case_brand[50 + 1];                                                                     //pomocné polia použité na uloženie značky malými písmenami
     int i, number_of_changes = 0, year;
-    CAR* aktual = l_list;                                                                                               //ukazovateľ na aktuálny záznam
+    CAR* aktual = p_linked_list;                                                                                        //ukazovateľ na aktuálny záznam
 
     fgets(new_brand, 50, stdin);
     new_brand[strlen(new_brand) - 1] = '\0';
@@ -21,7 +21,7 @@ CAR* a(CAR* l_list){
         }
 
         if(strcmp(low_case_brand, new_brand) == 0 && year == aktual->year){                                             //ak sa značky a rok rovnajú (obe premenené na malé písmená = zanedbané veľké písmená)
-            aktual->price = (aktual->price) - 100;                                                                      //cena sa zníži o jedna
+            aktual->price = (aktual->price) - 100;                                                                      //cena sa zníži o sto
             number_of_changes++;
         }
 
@@ -29,5 +29,5 @@ CAR* a(CAR* l_list){
     }
 
     printf("Aktualizovalo sa %d zaznamov\n", number_of_changes);
-    return l_list;
+    return p_linked_list;
 }
