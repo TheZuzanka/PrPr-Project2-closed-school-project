@@ -4,13 +4,13 @@
 #define PRPR_2POJEKT_FUNCTIONS_H
 #endif //PRPR_2POJEKT_FUNCTIONS_H
 
-#include <stdio.h>
+#include <stdio.h>                                                                                                      //použité knižnice
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
 
 
-typedef struct car{
+typedef struct car{                                                                                                     //definícia štruktúry typu CAR
     char category[50 + 1];
     char brand[50 + 1];
     char seller[100 + 1];
@@ -20,8 +20,8 @@ typedef struct car{
     struct car *next;
 }CAR;
 
-CAR* n(CAR* l_list, int* number_of_cars);
-void free_linked_list(CAR** l_list);
+CAR* n(CAR* l_list, int* number_of_cars);                                                                               //funkčné predpisy použitých funkcií
+void free_linked_list(CAR** p_linked_list);
 void k(CAR** l_list);
 void v(CAR** l_list);
 CAR* p(CAR* l_list, int *number_of_cars);
