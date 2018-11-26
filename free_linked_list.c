@@ -2,14 +2,14 @@
 
 #include "functions.h"
 
-void free_linked_list(CAR** l_list)
+void free_linked_list(CAR** p_linked_list)
 {
     CAR* aktual;
 
-    while (*l_list != NULL){
-        aktual = *l_list;
-        (*l_list) = (*l_list)->next;
-        free(aktual);
+    while (*p_linked_list != NULL){                                                                                     //dealokovanie celého linked listu
+        aktual = *p_linked_list;                                                                                        //adresu uložíme do pomocnej premennej aby sme nestratili jej referenciu
+        (*p_linked_list) = (*p_linked_list)->next;                                                                      //začiatok listu o jedno posunieme
+        free(aktual);                                                                                                   //prvý prvok pôvodnélo zoznamu dealokujeme
     }
 
 }

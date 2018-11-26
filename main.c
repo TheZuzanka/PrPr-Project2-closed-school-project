@@ -1,8 +1,8 @@
 #include "functions.h"
 
 int main() {
-    int function, number_of_cars = 0;
-    CAR* cars_list = NULL, *aktual;
+    int function, number_of_cars = 0;                                                                                   // function = čo sa vykoná, number_of_cars = počet záznamov v spájanom zozname
+    CAR* cars_list = NULL;
     CAR** p_cars_list = &cars_list;
 
     while ( (function = getchar()) ){
