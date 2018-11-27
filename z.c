@@ -13,7 +13,7 @@ CAR* z(CAR* p_linked_list){
         new_brand[position] = (char)tolower(new_brand[position]);
     }
 
-    while(aktual->next != NULL){                                                                                        //vykoná pre vśetky okrem poslednej
+    while(aktual != NULL){                                                                                        //vykoná pre vśetky okrem poslednej
         for (position = 0; position <= strlen(aktual->brand); position++){                                              //prevedenie aktuálnej značky na malé písmená
             low_case_brand[position] = (char)tolower((aktual->brand)[position]);
         }
@@ -22,6 +22,15 @@ CAR* z(CAR* p_linked_list){
             if(aktual == p_linked_list){                                                                                //ak sa jedná o pprvý prvok, smerník na list presmerujem na druhý prvok
                 deleting = aktual;                                                                                      //označím, ktorú štruktúru idem mazať
                 p_linked_list = aktual->next;
+            }
+            else if(aktual->next == NULL){                                                                              //pridávam na koniec
+                if(previous->next == NULL){                                                                             //ak mám len jeden záznam, delokujem celý linked list a vrátim NULL
+                    free_linked_list(&p_linked_list);
+                    printf("Vymazalo sa 1 zaznamov\n");
+                    return NULL;
+                }
+                previous->next = NULL;                                                                                  //predposledný prvok nastavím na posledný
+                deleting = aktual;                                                                                      //označím, ktorú štruktúru idem mazať
             }
             else{                                                                                                       //ak sa nejedná o prvý prvok presmerujem predchádzajúcu štruktúru na nasledujúcu = vynechám aktuálnu
                 previous->next = aktual->next;
@@ -35,21 +44,6 @@ CAR* z(CAR* p_linked_list){
             previous = aktual;
             aktual = aktual->next;
         }
-    }
-
-    for (position = 0; position <= strlen(aktual->brand); position++){                                                  //robím extra pre posledný
-        low_case_brand[position] = (char)tolower((aktual->brand)[position]);
-    }
-    if(strstr(low_case_brand, new_brand) != NULL){
-        if(previous->next == NULL){                                                                                     //ak mám len jeden záznam, delokujem celý linked list a vrátim NULL
-            free_linked_list(&p_linked_list);
-            printf("Vymazalo sa 1 zaznamov\n");
-            return NULL;
-        }
-        previous->next = NULL;                                                                                          //predposledný prvok nastavím na posledný
-        deleting = aktual;                                                                                              //označím, ktorú štruktúru idem mazať
-        free(deleting);                                                                                                 //dealokujem
-        number_of_deleted++;
     }
 
     printf("Vymazalo sa %d zaznamov\n", number_of_deleted);
