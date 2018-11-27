@@ -2,7 +2,7 @@
 
 int main() {
     int function, number_of_cars = 0;
-    CAR* cars_list = NULL, *aktual;
+    CAR* cars_list = NULL;
     CAR** p_cars_list = &cars_list;
 
     while ( (function = getchar()) ){
