@@ -16,15 +16,9 @@ void h(CAR** p_linked_list){
     while(aktual != NULL){
         to_lower_case(aktual->brand,low_case_brand);
 
-        //printf("%s %s\n", low_case_brand, brand);
         if(strcmp(low_case_brand, brand) == 0 && aktual->price <= price){
-            printf("%d.\n"
-                           "kategoria: %s\n"
-                           "znacka: %s\n"
-                           "predajca: %s\n"
-                           "cena: %d\n"
-                           "rok_vyroby: %d\n"
-                           "stav_vozidla: %s\n", place++, aktual->category, aktual->brand, aktual->seller, aktual->price, aktual->year, aktual->condition);
+            printf("%d.\n", place++);
+            print_node(aktual);
         }
         aktual = aktual->next;
     }

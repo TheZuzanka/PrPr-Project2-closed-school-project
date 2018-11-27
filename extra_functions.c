@@ -26,3 +26,13 @@ char* to_lower_case(char* string, char* low_case_string){                       
 void aktualisation(int* price){
     price = price - 100;
 }
+
+void print_node(CAR* aktual_node){
+    printf(        "kategoria: %s\n"
+                   "znacka: %s\n"
+                   "predajca: %s\n"
+                   "cena: %d\n"
+                   "rok_vyroby: %d\n"
+                   "stav_vozidla: %s\n", aktual_node->category, aktual_node->brand, aktual_node->seller, aktual_node->price, aktual_node->year, aktual_node->condition);
+
+}

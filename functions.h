@@ -30,3 +30,4 @@ void h(CAR** l_list);
 char* to_lower_case(char* string, char* low_case_string);
 void free_linked_list(CAR** l_list);
 void aktualisation(int* price);
+void print_node(CAR* aktual_node);
