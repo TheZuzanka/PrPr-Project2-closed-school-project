@@ -10,6 +10,7 @@ void free_linked_list(CAR** l_list)
         aktual = *l_list;
         (*l_list) = (*l_list)->next;
         free(aktual);
+        //TOTO JE MOJ PEKNY KOMENTAR WIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
     }
 
 }
