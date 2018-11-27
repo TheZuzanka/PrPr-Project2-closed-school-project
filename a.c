@@ -9,23 +9,18 @@ CAR* a(CAR* l_list){
 
     fgets(new_brand, 50, stdin);
     new_brand[strlen(new_brand) - 1] = '\0';
-    for (i = 0; i < strlen(new_brand); i++){
-        new_brand[i] = (char)tolower(new_brand[i]);
-    }
+    to_lower_case(new_brand, new_brand);
     scanf("%d", &year);
     getchar();
 
     while(aktual != NULL){
-        for (i = 0; i <= strlen(aktual->brand); i++){
-            low_case_brand[i] = (char)tolower((aktual->brand)[i]);
-        }
+        to_lower_case(aktual->brand, low_case_brand);
 
         if(strcmp(low_case_brand, new_brand) == 0 && year == aktual->year){
             aktual->price = (aktual->price) - 100;
             number_of_changes++;
         }
 
-        //printf("aktual = %s\n", aktual->brand);
         aktual = aktual->next;
     }
 

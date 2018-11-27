@@ -21,10 +21,11 @@ typedef struct car{
 }CAR;
 
 CAR* n(CAR* l_list, int* number_of_cars);
-void free_linked_list(CAR** l_list);
 void k(CAR** l_list);
 void v(CAR** l_list);
 CAR* p(CAR* l_list, int *number_of_cars);
 CAR* z(CAR* l_list);
 CAR* a(CAR* l_list);
 void h(CAR** l_list);
+char* to_lower_case(char* string, char* low_case_string);
+void free_linked_list(CAR** l_list);

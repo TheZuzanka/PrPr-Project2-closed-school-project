@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/wlach/CLionProjects/PrPr_2pojekt/a.c" "C:/Users/wlach/CLionProjects/PrPr_2pojekt/cmake-build-debug/CMakeFiles/PrPr_2pojekt.dir/a.c.obj"
-  "C:/Users/wlach/CLionProjects/PrPr_2pojekt/free_linked_list.c" "C:/Users/wlach/CLionProjects/PrPr_2pojekt/cmake-build-debug/CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj"
+  "C:/Users/wlach/CLionProjects/PrPr_2pojekt/extra_functions.c" "C:/Users/wlach/CLionProjects/PrPr_2pojekt/cmake-build-debug/CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj"
   "C:/Users/wlach/CLionProjects/PrPr_2pojekt/h.c" "C:/Users/wlach/CLionProjects/PrPr_2pojekt/cmake-build-debug/CMakeFiles/PrPr_2pojekt.dir/h.c.obj"
   "C:/Users/wlach/CLionProjects/PrPr_2pojekt/k.c" "C:/Users/wlach/CLionProjects/PrPr_2pojekt/cmake-build-debug/CMakeFiles/PrPr_2pojekt.dir/k.c.obj"
   "C:/Users/wlach/CLionProjects/PrPr_2pojekt/main.c" "C:/Users/wlach/CLionProjects/PrPr_2pojekt/cmake-build-debug/CMakeFiles/PrPr_2pojekt.dir/main.c.obj"

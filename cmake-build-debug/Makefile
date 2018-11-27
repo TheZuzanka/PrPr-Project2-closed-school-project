@@ -149,32 +149,32 @@ a.c.s:
 	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/a.c.s
 .PHONY : a.c.s
 
-free_linked_list.obj: free_linked_list.c.obj
+extra_functions.obj: extra_functions.c.obj
 
-.PHONY : free_linked_list.obj
+.PHONY : extra_functions.obj
 
 # target to build an object file
-free_linked_list.c.obj:
-	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj
-.PHONY : free_linked_list.c.obj
+extra_functions.c.obj:
+	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj
+.PHONY : extra_functions.c.obj
 
-free_linked_list.i: free_linked_list.c.i
+extra_functions.i: extra_functions.c.i
 
-.PHONY : free_linked_list.i
+.PHONY : extra_functions.i
 
 # target to preprocess a source file
-free_linked_list.c.i:
-	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.i
-.PHONY : free_linked_list.c.i
+extra_functions.c.i:
+	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.i
+.PHONY : extra_functions.c.i
 
-free_linked_list.s: free_linked_list.c.s
+extra_functions.s: extra_functions.c.s
 
-.PHONY : free_linked_list.s
+.PHONY : extra_functions.s
 
 # target to generate assembly for a file
-free_linked_list.c.s:
-	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.s
-.PHONY : free_linked_list.c.s
+extra_functions.c.s:
+	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.s
+.PHONY : extra_functions.c.s
 
 h.obj: h.c.obj
 
@@ -377,9 +377,9 @@ help:
 	@echo ... a.obj
 	@echo ... a.i
 	@echo ... a.s
-	@echo ... free_linked_list.obj
-	@echo ... free_linked_list.i
-	@echo ... free_linked_list.s
+	@echo ... extra_functions.obj
+	@echo ... extra_functions.i
+	@echo ... extra_functions.s
 	@echo ... h.obj
 	@echo ... h.i
 	@echo ... h.s
