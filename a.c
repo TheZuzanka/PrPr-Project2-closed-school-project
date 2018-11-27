@@ -17,7 +17,7 @@ CAR* a(CAR* l_list){
         to_lower_case(aktual->brand, low_case_brand);
 
         if(strcmp(low_case_brand, new_brand) == 0 && year == aktual->year){
-            aktual->price = (aktual->price) - 100;
+            aktualisation(&(aktual->price));
             number_of_changes++;
         }
 

@@ -22,3 +22,7 @@ char* to_lower_case(char* string, char* low_case_string){                       
     }
     return low_case_string;
 }
+
+void aktualisation(int* price){
+    price = price - 100;
+}
