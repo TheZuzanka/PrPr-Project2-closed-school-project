@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PrPr_2pojekt.dir/main.c.obj"
   "CMakeFiles/PrPr_2pojekt.dir/n.c.obj"
-  "CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj"
+  "CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj"
   "CMakeFiles/PrPr_2pojekt.dir/v.c.obj"
   "CMakeFiles/PrPr_2pojekt.dir/p.c.obj"
   "CMakeFiles/PrPr_2pojekt.dir/k.c.obj"

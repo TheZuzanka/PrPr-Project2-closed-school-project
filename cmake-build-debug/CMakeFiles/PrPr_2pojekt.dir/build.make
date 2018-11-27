@@ -104,28 +104,28 @@ CMakeFiles/PrPr_2pojekt.dir/n.c.obj.provides: CMakeFiles/PrPr_2pojekt.dir/n.c.ob
 CMakeFiles/PrPr_2pojekt.dir/n.c.obj.provides.build: CMakeFiles/PrPr_2pojekt.dir/n.c.obj
 
 
-CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj: CMakeFiles/PrPr_2pojekt.dir/flags.make
-CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj: ../free_linked_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wlach\CLionProjects\PrPr_2pojekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj"
-	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PrPr_2pojekt.dir\free_linked_list.c.obj   -c C:\Users\wlach\CLionProjects\PrPr_2pojekt\free_linked_list.c
+CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj: CMakeFiles/PrPr_2pojekt.dir/flags.make
+CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj: ../extra_functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wlach\CLionProjects\PrPr_2pojekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\PrPr_2pojekt.dir\extra_functions.c.obj   -c C:\Users\wlach\CLionProjects\PrPr_2pojekt\extra_functions.c
 
-CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.i"
-	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\wlach\CLionProjects\PrPr_2pojekt\free_linked_list.c > CMakeFiles\PrPr_2pojekt.dir\free_linked_list.c.i
+CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.i"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\wlach\CLionProjects\PrPr_2pojekt\extra_functions.c > CMakeFiles\PrPr_2pojekt.dir\extra_functions.c.i
 
-CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.s"
-	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\wlach\CLionProjects\PrPr_2pojekt\free_linked_list.c -o CMakeFiles\PrPr_2pojekt.dir\free_linked_list.c.s
+CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.s"
+	"E:\Program Files (x86)\mingw-w64\i686-7.2.0-posix-dwarf-rt_v5-rev1\mingw32\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\wlach\CLionProjects\PrPr_2pojekt\extra_functions.c -o CMakeFiles\PrPr_2pojekt.dir\extra_functions.c.s
 
-CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj.requires:
+CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj.requires:
 
-.PHONY : CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj.requires
+.PHONY : CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj.requires
 
-CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj.provides: CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj.requires
-	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj.provides.build
-.PHONY : CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj.provides
+CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj.provides: CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj.requires
+	$(MAKE) -f CMakeFiles\PrPr_2pojekt.dir\build.make CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj.provides.build
+.PHONY : CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj.provides
 
-CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj.provides.build: CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj
+CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj.provides.build: CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj
 
 
 CMakeFiles/PrPr_2pojekt.dir/v.c.obj: CMakeFiles/PrPr_2pojekt.dir/flags.make
@@ -276,7 +276,7 @@ CMakeFiles/PrPr_2pojekt.dir/h.c.obj.provides.build: CMakeFiles/PrPr_2pojekt.dir/
 PrPr_2pojekt_OBJECTS = \
 "CMakeFiles/PrPr_2pojekt.dir/main.c.obj" \
 "CMakeFiles/PrPr_2pojekt.dir/n.c.obj" \
-"CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj" \
+"CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj" \
 "CMakeFiles/PrPr_2pojekt.dir/v.c.obj" \
 "CMakeFiles/PrPr_2pojekt.dir/p.c.obj" \
 "CMakeFiles/PrPr_2pojekt.dir/k.c.obj" \
@@ -289,7 +289,7 @@ PrPr_2pojekt_EXTERNAL_OBJECTS =
 
 PrPr_2pojekt.exe: CMakeFiles/PrPr_2pojekt.dir/main.c.obj
 PrPr_2pojekt.exe: CMakeFiles/PrPr_2pojekt.dir/n.c.obj
-PrPr_2pojekt.exe: CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj
+PrPr_2pojekt.exe: CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj
 PrPr_2pojekt.exe: CMakeFiles/PrPr_2pojekt.dir/v.c.obj
 PrPr_2pojekt.exe: CMakeFiles/PrPr_2pojekt.dir/p.c.obj
 PrPr_2pojekt.exe: CMakeFiles/PrPr_2pojekt.dir/k.c.obj
@@ -310,7 +310,7 @@ CMakeFiles/PrPr_2pojekt.dir/build: PrPr_2pojekt.exe
 
 CMakeFiles/PrPr_2pojekt.dir/requires: CMakeFiles/PrPr_2pojekt.dir/main.c.obj.requires
 CMakeFiles/PrPr_2pojekt.dir/requires: CMakeFiles/PrPr_2pojekt.dir/n.c.obj.requires
-CMakeFiles/PrPr_2pojekt.dir/requires: CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj.requires
+CMakeFiles/PrPr_2pojekt.dir/requires: CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj.requires
 CMakeFiles/PrPr_2pojekt.dir/requires: CMakeFiles/PrPr_2pojekt.dir/v.c.obj.requires
 CMakeFiles/PrPr_2pojekt.dir/requires: CMakeFiles/PrPr_2pojekt.dir/p.c.obj.requires
 CMakeFiles/PrPr_2pojekt.dir/requires: CMakeFiles/PrPr_2pojekt.dir/k.c.obj.requires

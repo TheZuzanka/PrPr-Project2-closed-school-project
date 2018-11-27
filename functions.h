@@ -20,11 +20,13 @@ typedef struct car{                                                             
     struct car *next;
 }CAR;
 
-CAR* n(CAR* p_linked_list, int* number_of_cars);                                                                               //funkčné predpisy použitých funkcií
-void free_linked_list(CAR** p_linked_list);
-void k(CAR** p_linked_list);
-void v(CAR** p_linked_list);
-CAR* p(CAR* p_linked_list, int *number_of_cars);
+CAR* n(CAR* l_list, int* number_of_cars);
+void k(CAR** l_list);
+void v(CAR** l_list);
+CAR* p(CAR* l_list, int *number_of_cars);
 CAR* z(CAR* l_list);
-CAR* a(CAR* p_linked_list);
-void h(CAR** p_linked_list);
+CAR* a(CAR* l_list);
+void h(CAR** l_list);
+char* to_lower_case(char* string, char* low_case_string);
+void free_linked_list(CAR** l_list);
+void aktualisation(int* price);

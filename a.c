@@ -9,19 +9,15 @@ CAR* a(CAR* p_linked_list){
 
     fgets(new_brand, 50, stdin);
     new_brand[strlen(new_brand) - 1] = '\0';
-    for (i = 0; i < strlen(new_brand); i++){                                                                            //zadaná značka sa prevedie na malé znaky
-        new_brand[i] = (char)tolower(new_brand[i]);
-    }
+    to_lower_case(new_brand, new_brand);
     scanf("%d", &year);
     getchar();
 
     while(aktual != NULL){
-        for (i = 0; i <= strlen(aktual->brand); i++){                                                                   //aktuálna značka zo zoznamu sa prevedie na malé znaky
-            low_case_brand[i] = (char)tolower((aktual->brand)[i]);
-        }
+        to_lower_case(aktual->brand, low_case_brand);
 
-        if(strcmp(low_case_brand, new_brand) == 0 && year == aktual->year){                                             //ak sa značky a rok rovnajú (obe premenené na malé písmená = zanedbané veľké písmená)
-            aktual->price = (aktual->price) - 100;                                                                      //cena sa zníži o sto
+        if(strcmp(low_case_brand, new_brand) == 0 && year == aktual->year){
+            aktualisation(&(aktual->price));
             number_of_changes++;
         }
 

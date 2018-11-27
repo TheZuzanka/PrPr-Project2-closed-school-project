@@ -9,14 +9,10 @@ CAR* z(CAR* p_linked_list){
 
     fgets(new_brand, 50, stdin);
     new_brand[strlen(new_brand) - 1] = '\0';
-    for (position = 0; position < strlen(new_brand); position++){                                                       //prevedenie zadanej značky na malé písmená
-        new_brand[position] = (char)tolower(new_brand[position]);
-    }
+    to_lower_case(new_brand, new_brand);
 
-    while(aktual != NULL){                                                                                        //vykoná pre vśetky okrem poslednej
-        for (position = 0; position <= strlen(aktual->brand); position++){                                              //prevedenie aktuálnej značky na malé písmená
-            low_case_brand[position] = (char)tolower((aktual->brand)[position]);
-        }
+    while(aktual != NULL){                                                                                              //vykoná pre vśetky okrem poslednej
+        to_lower_case(aktual->brand, low_case_brand);
 
         if(strstr(low_case_brand, new_brand) != NULL){                                                                  //ak je zadaná značka podreťazcom značky v štruktúre buem mazať
             if(aktual == p_linked_list){                                                                                //ak sa jedná o pprvý prvok, smerník na list presmerujem na druhý prvok

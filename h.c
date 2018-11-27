@@ -9,19 +9,15 @@ void h(CAR** p_linked_list){
 
     fgets(brand, 50, stdin);
     brand[strlen(brand) - 1] = '\0';
-    for (i = 0; i < strlen(brand); i++){                                                                                //prevedenie zadanej značky na malé písmená
-        brand[i] = (char)tolower(brand[i]);
-    }
+    to_lower_case(brand, brand);
     scanf("%d", &price);
     getchar();
 
     while(aktual != NULL){
-        for (i = 0; i <= strlen(aktual->brand); i++){                                                                   //prevedenie aktuálne značky v zozname na malé písmená
-            low_case_brand[i] = (char)tolower((aktual->brand)[i]);
-        }
+        to_lower_case(aktual->brand,low_case_brand);
 
-        printf("%s %s\n", low_case_brand, brand);
-        if(strcmp(low_case_brand, brand) == 0 && aktual->price <= price){                                               //ak sa značky rovnajú (obe premenené na malé písmená = zanedbané veľké písmená) a cena v zozname je menšia rovná ako zadaná
+        //printf("%s %s\n", low_case_brand, brand);
+        if(strcmp(low_case_brand, brand) == 0 && aktual->price <= price){
             printf("%d.\n"
                            "kategoria: %s\n"
                            "znacka: %s\n"

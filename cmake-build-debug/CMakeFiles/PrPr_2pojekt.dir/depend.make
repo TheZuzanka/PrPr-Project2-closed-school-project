@@ -4,8 +4,8 @@
 CMakeFiles/PrPr_2pojekt.dir/a.c.obj: ../a.c
 CMakeFiles/PrPr_2pojekt.dir/a.c.obj: ../functions.h
 
-CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj: ../free_linked_list.c
-CMakeFiles/PrPr_2pojekt.dir/free_linked_list.c.obj: ../functions.h
+CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj: ../extra_functions.c
+CMakeFiles/PrPr_2pojekt.dir/extra_functions.c.obj: ../functions.h
 
 CMakeFiles/PrPr_2pojekt.dir/h.c.obj: ../functions.h
 CMakeFiles/PrPr_2pojekt.dir/h.c.obj: ../h.c
