@@ -2,10 +2,10 @@
 
 #include "functions.h"
 
-CAR* a(CAR* l_list){
-    char new_brand[50 + 1], low_case_brand[50 + 1];
+CAR* a(CAR* p_linked_list){
+    char new_brand[50 + 1], low_case_brand[50 + 1];                                                                     //pomocné polia použité na uloženie značky malými písmenami
     int i, number_of_changes = 0, year;
-    CAR* aktual = l_list;
+    CAR* aktual = p_linked_list;                                                                                        //ukazovateľ na aktuálny záznam
 
     fgets(new_brand, 50, stdin);
     new_brand[strlen(new_brand) - 1] = '\0';
@@ -25,5 +25,5 @@ CAR* a(CAR* l_list){
     }
 
     printf("Aktualizovalo sa %d zaznamov\n", number_of_changes);
-    return l_list;
+    return p_linked_list;
 }

@@ -2,11 +2,11 @@
 
 #include "functions.h"
 
-void v(CAR** l_list){
-    CAR* aktual = *l_list;
+void v(CAR** p_linked_list){
+    CAR* aktual = *p_linked_list;
     int place = 1;
 
-    while ( aktual != NULL){
+    while ( aktual != NULL){                                                                                            //pokiaľ je list prázdny, nevypíše sa nič
         printf("%d.\n"
                        "kategoria: %s\n"
                        "znacka: %s\n"

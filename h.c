@@ -2,10 +2,10 @@
 
 #include "functions.h"
 
-void h(CAR** l_list){
-    char brand[50 + 1], low_case_brand[50 + 1];
+void h(CAR** p_linked_list){
+    char brand[50 + 1], low_case_brand[50 + 1];                                                                         //pomocné polia použité na uloženie značky malými písmenami
     int i, place = 1, price;
-    CAR* aktual = *l_list;
+    CAR* aktual = *p_linked_list;                                                                                       //ukazovateľ na aktuálny prvok
 
     fgets(brand, 50, stdin);
     brand[strlen(brand) - 1] = '\0';
@@ -29,7 +29,7 @@ void h(CAR** l_list){
         aktual = aktual->next;
     }
 
-    if(place == 1){
+    if(place == 1){                                                                                                     //ak sa prednastavená hodnota polohy nezmení, žiaden záznam nevyhovuje požiadavkám
         printf("V ponuke nie su pozadovane auta.\n");
     }
 }
