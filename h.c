@@ -4,7 +4,7 @@
 
 void h(CAR** p_linked_list){
     char brand[50 + 1], low_case_brand[50 + 1];                                                                         //pomocné polia použité na uloženie značky malými písmenami
-    int i, place = 1, price;
+    int place = 1, price;
     CAR* aktual = *p_linked_list;                                                                                       //ukazovateľ na aktuálny prvok
 
     fgets(brand, 50, stdin);
