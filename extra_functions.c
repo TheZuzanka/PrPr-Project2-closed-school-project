@@ -2,8 +2,7 @@
 
 #include "functions.h"
 
-void free_linked_list(CAR** l_list)
-{
+void free_linked_list(CAR** l_list) {                                                                                   //uvoľní celý linked list
     CAR* aktual;
 
     while (*l_list != NULL){
@@ -23,11 +22,11 @@ char* to_lower_case(char* string, char* low_case_string){                       
     return low_case_string;
 }
 
-void aktualisation(int* price){
+void aktualisation(int* price){                                                                                         //aktualizuje cenu
     price = price - 100;
 }
 
-void print_node(CAR* aktual_node){
+void print_node(CAR* aktual_node){                                                                                      //vypíše aktuálny záznam
     printf(        "kategoria: %s\n"
                    "znacka: %s\n"
                    "predajca: %s\n"
