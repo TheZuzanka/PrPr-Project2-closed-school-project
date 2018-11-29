@@ -23,7 +23,7 @@ char* to_lower_case(char* string, char* low_case_string){                       
 }
 
 void aktualisation(int* price){                                                                                         //aktualizuje cenu
-    price = price - 100;
+    *price = *price - 100;
 }
 
 void print_node(CAR* aktual_node){                                                                                      //vypíše aktuálny záznam
