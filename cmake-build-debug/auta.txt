@@ -1,35 +1,21 @@
 $
 osobny automobil
-Random
+Ferrari
 Autobazar Pestovatelska 4 Bratislava
 5620
 2005
 udrziavane cervene dvojdverove
 $
 kamion
-Kia
+Renault
 AUTO Modranska 5 Senec
-18000
-2011
+28000
+2016
 po havarii opraveny v dobrom stave
 $
-osobny automobil
-Kia
-Mitsubishi Motors Banska Bystrica
-19500
-2016
-cervene oskrety pravy bok
-$
-osobny automobil
-Kia
-Kia Motors Zlate piesky
-19500
-2016
-trosku skrabnuty
-$
-osobny automobil
-Sasanka
-Sasanka s.r.o
-19500
-2018
-trosku skrabnuty ale iba trosicku
+prives
+Renault magnum
+Cambelova autobazar Stara Vajnorska 3296/25A Bratislava
+150
+2012
+roztrhnuta plachta

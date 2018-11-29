@@ -4,7 +4,7 @@
 
 CAR* z(CAR* p_linked_list){
     char new_brand[50 + 1], low_case_brand[50 + 1];
-    int position, number_of_deleted = 0;
+    int number_of_deleted = 0;
     CAR* aktual = p_linked_list, *deleting, *previous = p_linked_list;
 
     fgets(new_brand, 50, stdin);
