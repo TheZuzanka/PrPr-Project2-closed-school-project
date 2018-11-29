@@ -2,15 +2,13 @@
 
 #include "functions.h"
 
-void free_linked_list(CAR** l_list)
-{
+void free_linked_list(CAR** l_list) {                                                                                   //vymaže celý linked list
     CAR* aktual;
 
     while (*l_list != NULL){
         aktual = *l_list;
-        (*l_list) = (*l_list)->next;
-        free(aktual);
-        //TOTO JE MOJ PEKNY KOMENTAR WIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+        (*l_list) = (*l_list)->next;                                                                                    //presmeruje hlavičkový pointer na ďdalšiu štruktúru
+        free(aktual);                                                                                                   //vymaže prvý prvok
     }
 
 }
@@ -25,5 +23,10 @@ char* to_lower_case(char* string, char* low_case_string){                       
 }
 
 void aktualisation(int* price){
-    price = price - 100;
+    if (*price - 100 < 0){
+        *price = 0;
+    }
+    else{
+        *price = *price - 100;
+    }
 }
